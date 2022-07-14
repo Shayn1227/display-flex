@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    margin: 0; /*margin: Espaçamento fora do elemento.
+                 padding: Espaçamento dentro do elemento.*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;/*Alinhamento dos elementos no eixo Y (vertical)*/
+    justify-content: center;/*Alinhamento dos elementos no eixo X (horizontal)*/
+}
+
+.items {
+    border: 2px solid orange;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 {
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;/*Ele cria espaçamentos nas laterais.*/
+}
+
+.container-3 {
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;/*Ele cria espaçamentos iguais.*/
+}
+
+.container-4 {
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/*Ele cria espaçamentos iguais colocando eles 
+                                    nas laterias e centralizado um(no caso de três elementos).*/
+}
+
+.miolo {
+    border: 1px solid green;
+    width: 40px;
+    height: 40px;
+}
